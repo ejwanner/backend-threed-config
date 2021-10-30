@@ -26,7 +26,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// connect api to mongoDb database with mongoose
+// connect api with mongoDb database with mongoose
 mongoose.connect(connectionString, {
         useNewUrlParser: true,
         useUnifiedTopology: true
